@@ -37,7 +37,7 @@ main img {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: ipx solid rgb(0, 0, 0 .2);
+    border: ipx solid rgb(0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -49,7 +49,7 @@ aside img {
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
