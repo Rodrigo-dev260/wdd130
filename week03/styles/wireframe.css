@@ -1,0 +1,37 @@
+/* https://coolors.co/2b303a-f6ca83-008dd5-32de8a-d1ccdc */
+
+/*  Primary - color #228B22
+    Secundary - color #FFE347
+    Accent1 - color #40E0D0 
+    Accent2 - color #808080
+    Acent3 - color #D1CCDC
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #5A7061;
+}
+
+header {
+    background-color: #808080;
+}
+
+header a {
+    color: #fff;
+    padding: 10px;
+    margin-left: 30px;
+    padding: 5px 20px;
+}
+
+footer{
+    background-color: #62659B;
+    padding: 10px;
+    border-top: 1px solid black;
+    text-align: center;
+    color: #fff;
+}
