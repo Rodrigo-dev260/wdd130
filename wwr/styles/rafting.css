@@ -1,3 +1,13 @@
+/* https://coolors.co/eee82c-273b09-58641d */
+
+:root {
+    --primary-color: #273B09;
+    --secundary-color: #58641D;
+    --assets1: #EEE82C;
+    --assets2: #927555;
+    --black: #000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +16,16 @@
 body {
     width: 100%;
     height: auto;
+    color: var(--assets2);
+
+}
+
+h1 h2 {
+    color: var(--assets2);
+}
+
+p {
+    color: var(--black);
 }
 
 footer a {
