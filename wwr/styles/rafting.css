@@ -1,5 +1,4 @@
 /* https://coolors.co/eee82c-273b09-58641d */
-
 :root {
     --primary-color: #273B09;
     --secundary-color: #58641D;
@@ -17,7 +16,7 @@ body {
     width: 100%;
     height: auto;
     color: var(--assets2);
-
+    font-family: A;
 }
 
 h1 h2 {
