@@ -2,9 +2,9 @@
 :root {
     --primary-color: #273B09;
     --secundary-color: #58641D;
-    --assets1: #EEE82C;
-    --assets2: #927555;
-    --black: #000;
+    --accent1-color: #EEE82C;
+    --accent2-color: #927555;
+    --accent3-color: #000;
 }
 
 * {
