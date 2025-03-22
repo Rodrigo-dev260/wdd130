@@ -6,6 +6,7 @@
     --accent1-color: #EEE82C;
     --accent2-color: #927555;
     --accent3-color: #000000;
+    --accent4-color: #D4D4D4;
 }
 
 * {
@@ -34,7 +35,7 @@ p {
     
 }
 
-.hero h1 article {
+h1 article {
     position: absolute;
 }
 
