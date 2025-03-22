@@ -1,10 +1,11 @@
 /* https://coolors.co/eee82c-273b09-58641d */
+
 :root {
     --primary-color: #273B09;
     --secundary-color: #58641D;
     --accent1-color: #EEE82C;
     --accent2-color: #927555;
-    --accent3-color: #000;
+    --accent3-color: #000000;
 }
 
 * {
@@ -19,12 +20,26 @@ body {
     font-family: A;
 }
 
-h1 h2 {
+h1 h2 p {
+
     color: var(--assets2);
 }
 
 p {
     color: var(--black);
+}
+
+.hero {
+    position: relative;
+    
+}
+
+.hero h1 article {
+    position: absolute;
+}
+
+.hero, img {
+    float: right;
 }
 
 footer a {
