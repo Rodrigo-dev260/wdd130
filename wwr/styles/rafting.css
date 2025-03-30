@@ -20,27 +20,35 @@ body {
     
 }
 
-.menu {
-    background-color: var(--secundary-color);
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 20px;
-}
-
-.menu img {
-    width: 100px;
-}
-
-.menu nav {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
-
-.menu nav a {
+a {
     text-decoration: none;
-    color: var(--accent4-color);
-    font-size: 1.3rem;
-    font-weight: 700;
+    flex: auto;
+    
+}
+
+div .hero {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
+
+h1 article {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img p {
+    float: right;
+}
+
+article {
+    background-color: rgba(211, 211, 211, 0.518);
+    position: absolute;
 }
