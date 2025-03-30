@@ -20,25 +20,27 @@ body {
     
 }
 
-header {
-    background-color: var(--accent4-color);
+.menu {
+    background-color: var(--secundary-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
 }
 
-div .hero {
-    position: relative;
-    
+.menu img {
+    width: 100px;
 }
 
-h1 article {
-    position: absolute;
+.menu nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-a {
+.menu nav a {
     text-decoration: none;
+    color: var(--accent4-color);
+    font-size: 1.3rem;
+    font-weight: 700;
 }
