@@ -20,14 +20,44 @@ body {
     
 }
 
-a {
+.logo {
+    grid-column: 1;
+}
+
+.menu {
+    display: flex;
+    grid-column: 2;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.menu a {
     text-decoration: none;
-    flex: auto;
+    color: #333;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-family: "Prompt", sans-serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin: 10px;
+    text-indent: 10px;
     
 }
 
 div .hero {
     position: relative;
+    display: flex;
 }
 
 h1 {
@@ -44,11 +74,33 @@ h1 article {
     height: auto;
 }
 
-img p {
-    float: right;
-}
-
 article {
     background-color: rgba(211, 211, 211, 0.518);
-    position: absolute;
 }
+
+footer {
+    display: flex;
+    background-color: #927555;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .sociallinks {
+    display: flex;
+    gap: 10px;
+}
+
+footer .sociallinks a img {
+    width: 38px;
+    height: 38px;
+}
+
+
+
+
