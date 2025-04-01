@@ -20,15 +20,17 @@ body {
     
 }
 
+.header-grid {
+    display: grid;
+}
+
 .logo {
     grid-column: 1;
 }
 
 .menu {
-    display: flex;
     grid-column: 2;
     justify-content: space-evenly;
-    text-align: center;
 }
 
 .menu a {
@@ -56,15 +58,10 @@ p {
 }
 
 div .hero {
-    position: relative;
-    display: flex;
+    display: grid;
 }
 
 h1 {
-    position: absolute;
-}
-
-h1 article {
     position: absolute;
 }
 
