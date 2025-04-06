@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full Name: <input type="text" name="fullname"></label>
+                <br>
+                <label>Email: <input type="email" name="useremail"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet browser?</label>
+                <select name="browser" id="browser">
+                    <option value="firefox">firefox</option>
+                    <option value="chrome">chrome</option>
+                    <option value="Edge">Edge</option>
+                    <option value="safari">safari</option>
+                    <option value="other">Other</option>
+                    <option value="brave">Brave</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 | HTML Form - User Poll Activity | Rodrigo F. Silva</p>
+    </footer>
+</body>
+</html>
