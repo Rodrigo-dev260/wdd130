@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #273B09;
+    --secundary-color: #58641D;
+    --accent1-color: #EEE82C;
+    --accent2-color: #927555;
+    --accent3-color: #000000;
+    --accent4-color: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -169,13 +178,14 @@ iframe {
 }
 
 footer {
-    width: 100vw;
-    background-color: aquamarine;
+    width: 100%;
     display: flex;
+    background-color: #927555;
+    border-top: 1px solid #33333356;
+    justify-content: space-between;
     align-items: center;
     padding: 5px;
-    justify-content: space-between;
-    border-top: 1px solid #33333356;
+    border-top: 1px solid rgba(0, 0, 0, 0.336);
 }
 
 .corporativo {

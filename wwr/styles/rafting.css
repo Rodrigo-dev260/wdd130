@@ -76,6 +76,7 @@ article {
 }
 
 footer {
+    width: 100%;
     display: flex;
     background-color: #927555;
     justify-content: space-between;
@@ -88,9 +89,22 @@ footer p {
     margin: 0;
 }
 
-footer .sociallinks {
+.corporativo {
+    margin-left: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sociallinks {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+}
+
+.sociallinks a {
+    width: 48px;
+    height: auto;
+    cursor: pointer;
 }
 
 footer .sociallinks a img {
