@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rodrigo silva Rafting Contact page">
+    <meta name="author" content="Rodrigo Fernando da Silva">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/z-rapids-trees.jpg" alt="Logo Image">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <section class="staff">
+            <h1>This is our contact page</h1>
+            <figure>
+                <div class="image-caption">
+                    <img src="images/employ_1.jpg" alt="Employ image Man">
+                    <figcaption>Thomas</figcaption>
+                </div>
+                <div class="image-caption">
+                    <img src="images/employ_2.jpg" alt="Employ Imag Woman">
+                    <figcaption>Natasha</figcaption>
+                </div>
+                <div class="image-caption">
+                    <img src="images/employ_3.jpg" alt="Employ Image Man">
+                    <figcaption>Oscar</figcaption>
+                </div>
+            </figure>
+        </section>
+        <section class="form">
+            <h2>Contato</h2>
+            <form action="/submit-form" method="post">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              
+              <div class="form-group">
+                <p>choose a subject:</p>
+                <label>
+                  <input type="radio" name="choice" value="option1" id="option1">General Inquiry
+                </label>
+                <label>
+                  <input type="radio" name="choice" value="option2" id="option2">Reservation Question
+                </label>
+                <label>
+                  <input type="radio" name="choice" value="option3" id="option3">Website Suggestion</label>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29164.87882293719!2d-46.23697522818903!3d-23.974232584938523!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1744074729786!5m2!1spt-BR!2sbr" title="Map showing Guaruja, Sao Paulo" referrerpolicy="no-referrer"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p class="corporativo">&copy; 2025 Rapids Adventure Rafting | Rodrigo Silva</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/"><img src="images/facebook-48.png" alt="facebook Icon"></a>
+            <a href="https://www.instagram.com/" ><img src="images/instagram-48.png" alt="Instagran Icon"></a>
+            <a href="https://www.youtube.com/"><img src="images/youtube-48.png" alt="Youtube Icon"></a>
+        </nav>
+    </footer>
+</body>
+</html>

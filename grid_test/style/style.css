@@ -1,0 +1,36 @@
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    grid-template-areas: "green blue red";
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+    grid-area: red;
+}
+
+.blue {
+    background-color: blue;
+    grid-area: blue;
+}
+
+.green {
+    background-color: green;
+    grid-area: green;
+}
