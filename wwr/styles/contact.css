@@ -36,7 +36,7 @@ main {
     padding: 20px 0px;
     display: flex;
     flex-wrap: wrap; 
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 
 h1 {
@@ -91,9 +91,9 @@ figure img {
 
 .form-group {
     margin-bottom: 15px;
-  }
+}
 
-  .form-group label {
+.form-group label {
     display: block;
 
     margin-right: 10px;
@@ -208,6 +208,7 @@ footer {
     width: 48px;
     height: auto;
     cursor: pointer;
+
 }
 
 
