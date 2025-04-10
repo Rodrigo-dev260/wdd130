@@ -118,21 +118,20 @@ footer {
     background-color: #927555;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
     border-top: 1px solid rgba(0, 0, 0, 0.336);
 }
 
 footer p {
-    margin: 0;
+    
     margin-left: 20px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .socialmedia {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .socialmedia a {
