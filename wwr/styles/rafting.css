@@ -99,7 +99,7 @@ article {
 article img {
     float: right;
     border: 1px solid rgb(0, 0, 0);
-    margin: px 10px;
+    margin: 5px;
     padding: 3px;
     box-shadow: 3px 2px 5px gray;
 }
