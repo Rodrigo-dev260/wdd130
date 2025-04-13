@@ -19,7 +19,7 @@ header {
     background-color: var(--accent4-color);
     color: var(--accent2-color);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -77,13 +77,12 @@ figure img {
 }
 
 .form {
-    width: 600px;
-    height:auto;
+    width:80%;
     margin: 0 auto;
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: rgba(211, 211, 211, 0.567);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
@@ -91,7 +90,7 @@ figure img {
     text-align: center;
     color: #333;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .form-group {
@@ -99,10 +98,14 @@ figure img {
 }
 
 .form-group label {
-    display: block;
-
+    
     margin-right: 10px;
     font-size: 14px;
+  }
+
+  .form-group > input, textarea {
+    width: 600px;
+
   }
 
 .form-group input,
@@ -112,10 +115,6 @@ figure img {
     border-radius: 5px;
     font-size: 14px;
 }
-
-textarea {
-    margin-bottom: 10px;
-  }
 
 .form-group p {
     margin-bottom: 10px;
@@ -164,21 +163,22 @@ nav a {
 }
 
 .map {
+    margin: 20px 0px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 20px auto;
-    max-width: 90%;
+    flex-direction: column;
 }
 
 .map iframe {
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 iframe {
-    width: 100vw;
-    height: 50vh;
+    margin-top: 20px;
+    width: 600px;
+    height: 500px;
 }
 
 footer {
