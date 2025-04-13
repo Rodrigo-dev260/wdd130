@@ -1,13 +1,26 @@
 /*https://coolors.co/eee82c-273b09-58641d*/
 
 :root {
-    --primary-color: #273B09;
-    --secundary-color: #58641D;
-    --accent1-color: #EEE82C;
-    --accent2-color: #927555;
-    --accent3-color: #000000;
-    --accent4-color: #ffffff;
+    /* Primary Colors */
+    --dark-green: #006400; /* Nature */
+    --light-blue: #87CEEB; /* Water */
+    --medium-brown: #8B4513; /* Wood */
+    --golden-yellow: #FFD700; /* Highlights */
+    --light-gray: #D3D3D3; /* Neutral */
+  
+    /* Fonts */
+    --main-font: 'Arial', sans-serif;
+    --highlight-font: 'Georgia', serif;
+  
+    /* Spacing */
+    --default-margin: 16px;
+    --default-padding: 12px;
+  
+    /* Borders */
+    --border-radius: 8px;
+    --border-width: 2px;
 }
+  
 
 * {
     margin: 0;
@@ -21,6 +34,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: row;
 }
 
 body {
@@ -39,15 +53,31 @@ header, main, footer {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    width: 600px;
+}
+
 nav a {
     margin: auto;
-    letter-spacing: .1em;
     font-size: 1.2em;
     text-decoration: none;
     font-weight: bold;
 }
 
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.5;
+    background-color: var(--golden-yellow);
+    color: #000000;
+}
+
 h1, h2 {
+    text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
     font-size: 2rem;
@@ -112,24 +142,13 @@ article img {
     text-align: center;
 }
 
-.image_container img {
-    width: 400px;
-}
-
-h1, h2 {
-    font-family: "Roboto", sans-serif;
-    color: var(--accent3-color);
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--secundary-color);
-    color: #fff;
+.image_grid img {
+    background-color: rgba(128, 128, 128, 0.301);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 350px;
+    height: 250px;
 }
 
 footer {
