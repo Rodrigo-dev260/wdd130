@@ -48,7 +48,7 @@ header img {
 }
 
 
-header, main, footer {
+header, main, footer, section {
     width: 840px;
     margin: 0 auto;
 }
@@ -100,6 +100,8 @@ section {
 }
 
 .hero {
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
@@ -134,20 +136,27 @@ article img {
 }
 
 .image_container {
-    grid-template: 1fr 1fr / 1fr 1fr;
     display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 400px 400px;
+    gap: 20px;
     justify-content: center;
-    gap: 15px;
-    text-align: center;
+    align-content: center;
+    height: 100%;
 }
 
 .image_grid img {
+    object-fit: cover;
     background-color: rgba(128, 128, 128, 0.301);
     padding: 5px;
     border-radius: 5px;
     border: 2px solid gray;
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.image_grid > img > p {
+    text-align: center;
 }
 
 footer {
@@ -324,7 +333,8 @@ iframe {
 }
 
 .location_container {
-    width: 800px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -355,8 +365,34 @@ iframe {
 .hero > a > p:hover {
     background-color: var(--dark-green);
     color: var(--golden-yellow);
-    
 }
+
+.newsletter {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 400px 400px;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+
+}
+
+.grid-item img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+/* Abut US*/
+
+
 
 
 
