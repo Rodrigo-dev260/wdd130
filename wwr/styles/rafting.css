@@ -367,10 +367,9 @@ iframe {
 }
 
 .newsletter {
-    background-color: var(--light-gray);
     display: block;
     width: 100%;
-    height: 250 3px;
+    height: 250px;
     text-align: center;
 }
 
@@ -444,10 +443,10 @@ table tr:nth-child(even) {
 }
 
 /* Responsive Grid Layout */
-section {
+.trip_section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;align-items: center;
+    gap: 2rem;
 }
 
 
