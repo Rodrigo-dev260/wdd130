@@ -191,7 +191,7 @@ footer .socialmedia a img {
 
 .main_contact {
     background-color: var(--light-blue);
-    border: 1px solid var(--dark-green);
+    box-shadow: -4px -3px 9px 0 gray;
 }
 
 .employ_img {
@@ -297,7 +297,6 @@ figure img {
     border-radius: 10px;
     background-color: rgba(211, 211, 211, 0.567);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
   }
 
 .form h2 {
@@ -396,6 +395,7 @@ iframe {
 /* Trip */
 
 .trip {
+    height: 400px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -404,6 +404,7 @@ iframe {
     border-radius: 5px;
     padding: 1rem;
     background-color: #f9f9f9;
+    justify-items: center;
 }
 
 .trip img {
@@ -446,7 +447,7 @@ table tr:nth-child(even) {
 section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 2rem;align-items: center;
 }
 
 
